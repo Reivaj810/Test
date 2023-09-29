@@ -47,7 +47,7 @@ export const Navbar = () => {
       </div>
       <div className="-mb-3">
         <Image
-          src={"https://i.postimg.cc/pV4tKTwW/Landscape.png"}
+          src={"/Navbar/Landscape.png"}
           width={500}
           height={100}
           alt="Casas"

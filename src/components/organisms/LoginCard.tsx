@@ -16,7 +16,6 @@ export const LoginCard = () => {
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log(formData);
 
     const apiUrl = "https://gozip-api.azurewebsites.net/api/Auth";
 
@@ -36,7 +35,6 @@ export const LoginCard = () => {
 
       const token = await response.text();
 
-      console.log("Token:", token);
       if (token) {
         const cookieString = `$token=${token}`;
         document.cookie = cookieString;
@@ -104,7 +102,7 @@ export const LoginCard = () => {
       </p>
 
       <Image
-        src="https://i.postimg.cc/pV4tKTwW/Landscape.png"
+             src={"/Navbar/Landscape.png"}
         width={400}
         height={100}
         alt="Casas"

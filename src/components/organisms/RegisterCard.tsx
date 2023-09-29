@@ -48,7 +48,7 @@ export const RegisterCard = () => {
       </p>
 
       <Image
-        src={"https://i.postimg.cc/pV4tKTwW/Landscape.png"}
+        src={"/Navbar/Landscape.png"}
         width={400}
         height={100}
         alt="Casas"
